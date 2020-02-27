@@ -1,0 +1,59 @@
+/* Using grid layout to section out my wireframe */
+.gridbody{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2%;
+}
+/* The colors are just placeholders for lack there of better colors */
+.sidebar{
+    grid-row: 1/5;
+    background-color: pink;
+    text-align: center;
+}
+.aboutme{
+    grid-column: 2/4;
+    grid-row: 1;
+    background-color: red;
+    text-align: center;
+}
+.skills{
+    grid-column: 2/4;
+    grid-row: 2;
+    text-align: center;
+    background-color: blue;
+
+
+}
+.projects{
+    grid-row: 4;
+    grid-column: 2/4;
+    text-align: center;
+    background-color: yellow;
+}
+
+.resume{
+    grid-row:5;
+    grid-column: 2/4;
+    text-align: center;
+    background-color: green;
+}
+.education{
+    grid-row: 3;
+    grid-column: 2/4;
+    text-align: center;
+    background-color: lightblue;
+
+}
+
+.intro{
+    /* grid-row:1; */
+    grid-column:4 ;
+    text-align: center;
+    background-color: orange;
+}
+.contact{
+    grid-row:4/5;
+    text-align: center;
+    background-color: slategrey;
+    
+}
